@@ -1,0 +1,68 @@
+﻿Resolving dependencies...
+Downloading packages...
+  async 2.12.0 (2.13.1 available)
+  characters 1.4.0 (1.4.1 available)
+  fake_async 1.3.2 (1.3.3 available)
+  flutter_lints 4.0.0 (6.0.0 available)
+  flutter_riverpod 2.6.1 (3.3.2 available)
+  go_router 14.8.1 (17.3.0 available)
+  google_fonts 6.3.2 (8.1.0 available)
+  intl 0.19.0 (0.20.2 available)
+  jni 0.14.2 (1.0.0 available)
+  leak_tracker 10.0.8 (11.0.2 available)
+  leak_tracker_flutter_testing 3.0.9 (3.0.10 available)
+  leak_tracker_testing 3.0.1 (3.0.2 available)
+  lints 4.0.0 (6.1.0 available)
+  matcher 0.12.17 (0.12.20 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.16.0 (1.18.3 available)
+  package_config 2.2.0 (3.0.0 available)
+  package_info_plus 9.0.1 (10.1.0 available)
+  package_info_plus_platform_interface 3.2.1 (4.1.0 available)
+  path_provider_android 2.2.19 (2.3.1 available)
+  path_provider_foundation 2.4.2 (2.6.0 available)
+  riverpod 2.6.1 (3.3.2 available)
+  shared_preferences 2.5.3 (2.5.5 available)
+  shared_preferences_android 2.4.13 (2.4.26 available)
+  shared_preferences_foundation 2.5.4 (2.5.6 available)
+  shared_preferences_platform_interface 2.4.1 (2.4.2 available)
+  smooth_page_indicator 1.2.1 (2.0.1 available)
+  source_span 1.10.1 (1.10.2 available)
+  sqflite 2.4.2 (2.4.3 available)
+  sqflite_android 2.4.1 (2.4.3 available)
+  sqflite_common 2.5.5 (2.5.9 available)
+  sqflite_darwin 2.4.2 (2.4.3 available)
+  sqflite_platform_interface 2.4.0 (2.4.1 available)
+  synchronized 3.3.1 (3.4.1 available)
+  test_api 0.7.4 (0.7.12 available)
+  vector_math 2.1.4 (2.4.0 available)
+  vm_service 14.3.1 (15.2.0 available)
+  win32 5.13.0 (6.3.0 available)
+Got dependencies!
+38 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing foodrush...                                           
+
+warning - Unused import: 'package:sentry_flutter/sentry_flutter.dart' - lib\core\network\dio_client.dart:2:8 - unused_import
+  error - The name 'ok' isn't a class - lib\data\repositories\restaurant_repository.dart:26:39 - creation_with_non_type
+  error - The name 'ok' isn't a class - lib\data\repositories\restaurant_repository.dart:27:46 - creation_with_non_type
+  error - The name 'internalError' isn't a class - lib\data\repositories\restaurant_repository.dart:30:39 - creation_with_non_type
+  error - The name 'internalError' isn't a class - lib\data\repositories\restaurant_repository.dart:31:46 - creation_with_non_type
+  error - The name 'ok' isn't a class - lib\data\repositories\restaurant_repository.dart:72:39 - creation_with_non_type
+  error - The name 'ok' isn't a class - lib\data\repositories\restaurant_repository.dart:73:46 - creation_with_non_type
+  error - The name 'internalError' isn't a class - lib\data\repositories\restaurant_repository.dart:76:39 - creation_with_non_type
+  error - The name 'internalError' isn't a class - lib\data\repositories\restaurant_repository.dart:77:46 - creation_with_non_type
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\cart\screens\cart_screen.dart:75:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\home\widgets\banner_carousel.dart:58:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\home\widgets\category_chips.dart:41:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\order\screens\order_history_screen.dart:84:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\order\screens\order_tracking_screen.dart:102:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\order\screens\order_tracking_screen.dart:121:91 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\order\widgets\order_status_stepper.dart:48:56 - deprecated_member_use
+warning - Unused import: '../../../data/repositories/restaurant_repository.dart' - lib\features\restaurant\providers\restaurant_provider.dart:5:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\restaurant\screens\restaurant_detail_screen.dart:203:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\restaurant\widgets\menu_item_card.dart:60:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\splash\screens\splash_screen.dart:53:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\splash\screens\splash_screen.dart:83:40 - deprecated_member_use
+  error - The setter 'autoSessionTracking' isn't defined for the type 'SentryFlutterOptions' - lib\main.dart:20:15 - undefined_setter
+
